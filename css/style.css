@@ -15,7 +15,6 @@
 }
 .hobby-game {
   float: left;
-  margin-left: 50px;
   width: 400px;
 }
 .game {
@@ -37,9 +36,12 @@
 .game-img {
   margin: 0 10px 10px 0;
 }
+.game-img:hover {
+  width: 450px;
+  height: 300px;
+}
 .hobby-photo {
-  float: left;
-  margin-left: 50px;
+  float: right;
   width: 400px;
 }
 .photo {
@@ -60,4 +62,16 @@
 }
 .photo-img {
   margin: 0 10px 10px 0;
+}
+.photo-img:hover {
+  width: 450px;
+  height: 300px;
+}
+.footer {
+  margin-bottom: 40px;
+}
+.footer-text {
+  text-align: center;
+  color: #008000;
+  font-size: 20px;
 }
