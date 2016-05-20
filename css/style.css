@@ -1,0 +1,63 @@
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+.wrappr {
+  margin: 0 auto;
+  width: 960px;
+}
+.header {
+  margin-top: 20px;
+  text-align: center;
+  color: #008000;
+  font-size: 20px;
+}
+.hobby-game {
+  float: left;
+  margin-left: 50px;
+  width: 400px;
+}
+.game {
+  width: 400px;
+  height: 200px;
+  background-color: #ff0000;
+}
+.game-name {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.game-text {
+  margin-left: 50px;
+  width: 300px;
+  color: #fff;
+  font-size: 18px;
+}
+.game-img {
+  margin: 0 10px 10px 0;
+}
+.hobby-photo {
+  float: left;
+  margin-left: 50px;
+  width: 400px;
+}
+.photo {
+  width: 400px;
+  height: 200px;
+  background-color: #0000ff;
+}
+.photo-name {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.photo-text {
+  margin-left: 50px;
+  width: 300px;
+  color: #fff;
+  font-size: 18px;
+}
+.photo-img {
+  margin: 0 10px 10px 0;
+}
